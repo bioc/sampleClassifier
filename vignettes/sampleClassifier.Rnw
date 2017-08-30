@@ -2,7 +2,6 @@
 %\VignettePackage{sampleClassifier}
 %\VignetteEngine{utils::Sweave}
 \documentclass{article}
-\usepackage{Sweave}
 
 \SweaveOpts{keep.source=TRUE}
 <<style, eval=TRUE, echo=FALSE, results=tex>>=
