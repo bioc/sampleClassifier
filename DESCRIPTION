@@ -1,10 +1,15 @@
 Package: sampleClassifier
 Type: Package
 Title: Sample Classifier
+<<<<<<< HEAD
 Version: 1.2.0
 Date: 2017-01-23
+=======
+Version: 1.2.1
+Date: 2017-11-22
+>>>>>>> 26fa10b... fixed the vignette latex error caused by the new version of BiocStyle
 Author: Khadija El-Amrani
-Maintainer: Khadija El-Amrani <khadija.el-amrani@charite.de>
+Maintainer: Khadija El Amrani <a.khadija@gmx.de>
 Description: The package is designed to classify gene expression
         profiles.
 Depends: R (>= 3.4), MGFM, MGFR, annotate
@@ -13,3 +18,5 @@ Suggests: sampleClassifierData, BiocStyle, hgu133a.db, hgu133plus2.db
 biocViews: Classification, Microarray, RNASeq, GeneExpression
 License: Artistic-2.0
 LazyData: yes
+NeedsCompilation: no
+
