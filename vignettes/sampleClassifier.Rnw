@@ -169,8 +169,9 @@ The \Biocpkg{sampleClassifier} package can be downloaded and installed by runnin
 following code from within R:
 
 <<eval=FALSE>>=
-source("http://bioconductor.org/biocLite.R")
-biocLite("sampleClassifier")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("sampleClassifier")
 @
 
 We also recommend installing the accompanying data package, 
