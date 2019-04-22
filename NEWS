@@ -1,3 +1,5 @@
-sampleClassifier 0.99.0 (build 17. January 2017)
+CHANGES IN VERSION 0.99.0
+-----------------------------
+ 
 - First submission to BioConductor 
-22.11.2017: fixed timeout error
+    + 22.11.2017: fixed timeout error
