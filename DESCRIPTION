@@ -1,7 +1,7 @@
 Package: sampleClassifier
 Type: Package
 Title: Sample Classifier
-Version: 1.13.0
+Version: 1.13.1
 Date: 2017-11-22
 Author: Khadija El-Amrani
 Maintainer: Khadija El Amrani <a.khadija@gmx.de>
@@ -14,4 +14,4 @@ biocViews: ImmunoOncology, Classification, Microarray, RNASeq, GeneExpression
 License: Artistic-2.0
 LazyData: yes
 NeedsCompilation: no
-
+PackageStatus: Deprecated
