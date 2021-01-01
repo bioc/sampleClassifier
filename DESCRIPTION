@@ -1,17 +1,17 @@
 Package: sampleClassifier
 Type: Package
 Title: Sample Classifier
-Version: 1.15.0
-Date: 2017-11-22
-Author: Khadija El-Amrani
-Maintainer: Khadija El Amrani <a.khadija@gmx.de>
-Description: The package is designed to classify gene expression
+Version: 1.15.1
+Authors@R: person("Khadija", "El Amrani", role=c("aut", "cre"), 
+            email = "a.khadija@gmx.de")
+Description: The package is designed to classify microarray RNA-seq gene expression
         profiles.
-Depends: R (>= 3.4), MGFM, MGFR, annotate
+Depends: R (>= 4.0), MGFM, MGFR, annotate
 Imports: e1071, ggplot2, stats, utils
 Suggests: sampleClassifierData, BiocStyle, hgu133a.db, hgu133plus2.db
-biocViews: ImmunoOncology, Classification, Microarray, RNASeq, GeneExpression
+biocViews: ImmunoOncology, Classification, Microarray, RNASeq,
+        GeneExpression
 License: Artistic-2.0
 LazyData: yes
 NeedsCompilation: no
-PackageStatus: Deprecated
+
