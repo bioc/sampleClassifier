@@ -1,5 +1,18 @@
-CHANGES IN VERSION 0.99.0
------------------------------
+
+CHANGES IN VERSION 1.14.1
+-------------------------
+
+BUG FIXES
+
+    o fixed the error in classifyProfile.svm() and classifyProfile.rnaseq.svm() by    	     
+    changing the vector of Profile names in the call of svm() function from character to       
+    factor.
+
+
+
+CHANGES IN VERSION 1.4.0
+-------------------------
  
-- First submission to BioConductor 
-    + 22.11.2017: fixed timeout error
+BUG FIXES
+
+    o  fixed timeout error

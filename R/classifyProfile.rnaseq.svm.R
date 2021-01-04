@@ -19,7 +19,7 @@ ref.mat.svm <- ref_matrix
 colnames(ref.mat.svm) <- make.unique(colnames(ref_matrix))
 mpsmat <- .get_mpsmat(ref.mat.svm, mg.list, fun=fun1)
 cat("building an SVM model...\n")
-svm.model <- svm(x=t(mpsmat), y=colnames(ref_matrix), type="C-classification", kernel="linear")
+svm.model <- svm(x=t(mpsmat), y=as.factor(colnames(ref_matrix)), type="C-classification", kernel="linear")
 svm.pred.class <- c()
 query.mat.svm <- .get_mpsmat(query_mat, mg.list, fun=fun1)
 query.mat <-as.matrix(query.mat.svm)
